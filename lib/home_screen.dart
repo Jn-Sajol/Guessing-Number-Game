@@ -5,11 +5,15 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
+    return  Scaffold(
     body: Column(
     children: [
-    Text('Please Enter Your Name'),
-    TextField()
+    const Text('Please Enter Your Name'),
+    const TextField(),
+    ElevatedButton(
+    onPressed: (){}, 
+    child: const Text("Submit"),
+    )
     ],
     )
     );
