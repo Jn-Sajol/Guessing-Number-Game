@@ -16,7 +16,7 @@ class ReturnNumberPage extends StatelessWidget {
 
           children: [
             const Text(
-              'Hey lending',
+              'Now, give back to your friend what Number you took from him from your Total Number!',
               style: TextStyle(
                   fontSize: 34,
                   color: Colors.white,
@@ -25,8 +25,9 @@ class ReturnNumberPage extends StatelessWidget {
             const SizedBox(
               height: 23,
             ),
-            const Text('Please Enter Your Name',
-                style: TextStyle(fontSize: 24, color: Colors.white)),
+            const Text('After Return Back, Please Press Next Button and see the magic.',
+                style: TextStyle(
+                    fontSize: 14, color: Color.fromARGB(255, 122, 108, 108))),
             const SizedBox(
               height: 23,
             ),
@@ -42,7 +43,7 @@ class ReturnNumberPage extends StatelessWidget {
                         builder: (context) => const ResultPage()));
               },
               child: const Text(
-                "Next",
+                "See Magic 😜",
                 style:
                     TextStyle(color: Colors.black, fontWeight: FontWeight.bold),
               ),

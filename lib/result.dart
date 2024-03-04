@@ -17,16 +17,7 @@ class ResultPage extends StatelessWidget {
                 const SizedBox(height: 23,),
                 const Text('Please Enter Your Name',style: TextStyle(fontSize: 24,color: Colors.white)),
                 const SizedBox(height: 23,),
-                // const TextField(
-                // decoration: InputDecoration(
-                // filled: true,
-                // fillColor: Color.fromARGB(73, 251, 251, 251),
-                // border: OutlineInputBorder(
-                // borderRadius: BorderRadius.all(Radius.circular(13))
-                // )
-                // ),
-                // ),
-                //  const SizedBox(height: 23,),
+            
                 ElevatedButton(
                 style: const  ButtonStyle(
                 padding: MaterialStatePropertyAll(EdgeInsets.all(20)),
