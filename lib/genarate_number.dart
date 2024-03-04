@@ -25,7 +25,7 @@ class GenarateNumberPage extends StatelessWidget {
 
           children: [
              Text(
-              'Now, I am Giving You $randomNumber . Now you have to Add your previous additional Result Number',
+              'Now, I am Giving You $randomNumber . Now you have to Add With your previous Total Number',
               style: const TextStyle(
                   fontSize: 34,
                   color: Colors.white,
