@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
     debugShowCheckedModeBanner: false,
     theme: ThemeData(scaffoldBackgroundColor: Color.fromARGB(255, 1, 24, 31)),
-    home: const HomeScreen(),
+    home:  HomeScreen(),
     );
   }
 }

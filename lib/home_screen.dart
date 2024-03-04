@@ -45,7 +45,7 @@ class HomeScreen extends StatelessWidget {
               // shape: MaterialStateProperty.all(OutlinedBorder()),
             ),
             onPressed: () {
-            namePro.name(textController);
+            namePro.name = textController.text;
               Navigator.push(context,
                   MaterialPageRoute(builder: (context) => const GuessNumber()));
             },
