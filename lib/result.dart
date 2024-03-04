@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:guessnumber/genarate_number.dart';
-class LendingPage extends StatelessWidget {
-  const LendingPage({super.key});
+class ResultPage extends StatelessWidget {
+  const ResultPage({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -34,9 +33,7 @@ class LendingPage extends StatelessWidget {
                   // shape: MaterialStateProperty.all(OutlinedBorder()),
                 ),
                   onPressed: () {
-                   Navigator.push(context, 
-                MaterialPageRoute(builder: (context)=> const GenarateNumberPage())
-                );
+                 
                   },
                   child: const Text("Next",style: TextStyle(color: Colors.black,fontWeight: FontWeight.bold),),
                 )

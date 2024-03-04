@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:guessnumber/lend.dart';
 class GuessNumber extends StatelessWidget {
   const GuessNumber({super.key});
 
@@ -33,9 +34,11 @@ class GuessNumber extends StatelessWidget {
                   // shape: MaterialStateProperty.all(OutlinedBorder()),
                 ),
                   onPressed: () {
-                  Navigator;
+                  Navigator.push(context, 
+                MaterialPageRoute(builder: (context)=> const LendingPage())
+                );
                   },
-                  child: const Text("Submit",style: TextStyle(color: Colors.black,fontWeight: FontWeight.bold),),
+                  child: const Text("Next",style: TextStyle(color: Colors.black,fontWeight: FontWeight.bold),),
                 )
               ],
             ),
